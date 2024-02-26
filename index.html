@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Pythagorean Theorem</h1>
+    <p>
+      For any right triangle with sides <b>a</b> and <b>b</b> the hypotenuse
+      <b>c</b>, the square of the hypotenuse is equal to the sum of the square
+      of the other two sides.
+    </p>
+
+    <p id="imgcenter">
+      <a
+        target="_blank"
+        href="http://www.etudes.ru/en/etudes/pythagorean-theorem/"
+        ><img src="images/Pythagorean-Theorem.jpeg" alt="triangle"
+      /></a>
+    </p>
+
+    <div id="calculatorcontainer">
+      <h2>Pythagorean Calculator</h2>
+      <p>
+        Enter lengths for the two shorter sides of a right triangle. Then click
+        the
+        <b id="calctxt">C<span id="smallcaps">ALCULATE</span></b> button to
+        determine the lenght of the hypotenuse.
+      </p>
+      <h3>Inputs</h3>
+      <label for="sidea">Side a:</label>
+      <input id="sidea" type="number" /> <br />
+      <label for="sideb">Side b:</label>
+      <input id="sideb" type="number" /> <br />
+      <button>C<span id="smallcaps2">ALCULATE</span></button>
+      <h3>Result</h3>
+      <p>The lenght of the hypotenuse is: <b id="maroontxt">?????</b></p>
+    </div>
+  </body>
+</html>
